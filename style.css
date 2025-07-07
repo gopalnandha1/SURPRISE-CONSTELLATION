@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: centre;
+
+}
+
+/* Background video settings */
+video#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  color: white;
+  text-shadow: 2px 2px 6px black;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.full-width-image {
+  width: 360px;
+  height: 200px;
+  /* keeps aspect ratio */
+  margin: 0%;
+  padding: 0%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  text-align: centre;
+  color: white;
+}
+
+h3 {
+  text-align: centre;
+  color: white;
+}
+
+h5 {
+  color: white;
+  text-align: centre;
+  padding: 10px;
+}
