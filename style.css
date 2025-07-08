@@ -57,3 +57,9 @@ h5 {
   text-align: centre;
   padding: 10px;
 }
+footer {
+        padding: 0.2rem;
+        text-align: center;
+        background: #333;
+        color: white;
+      }
